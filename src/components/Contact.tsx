@@ -138,8 +138,8 @@ const Contact = () => {
 
           <div className="bg-gray-800 border border-gray-700 rounded-2xl p-8 hover:shadow-2xl hover:shadow-gray-900/50 transition-all duration-700 hover:scale-[1.02] animate-slide-in-right">
             <div className="text-center">
-              <div className="w-20 h-20 bg-gray-700 border border-gray-600 rounded-full flex items-center justify-center mx-auto mb-6 group hover:scale-110 transition-transform duration-500">
-                <span className="text-3xl animate-pulse group-hover:scale-110 transition-transform duration-300">🚀</span>
+              <div className="w-20 h-20 bg-gray-700 border border-gray-600 rounded-full flex items-center justify-center mx-auto mb-6 group hover:scale-110 transition-all duration-300">
+                <Mail className="w-8 h-8 text-gray-300 group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-2xl font-bold text-gray-100 mb-4 font-mono">
                 Ready to Start a Project?
