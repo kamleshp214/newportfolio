@@ -17,7 +17,7 @@ const Skills = () => {
     },
     {
       title: 'Languages',
-      skills: ['C++', 'Java (Intermediate)', 'Python'],
+      skills: ['C++', 'Java', 'Python'],
       icon: Code
     },
     {
@@ -100,7 +100,7 @@ const Skills = () => {
 
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-gray-800 border border-gray-700 px-8 py-4 rounded-full hover:bg-gray-700/50 transition-all duration-500 hover:scale-105 group">
-            <span className="text-2xl animate-pulse group-hover:scale-110 transition-transform duration-300">🚀</span>
+            <span className="text-2xl animate-pulse group-hover:scale-110 transition-transform duration-300"></span>
             <span className="text-lg font-medium text-gray-300 font-mono">
               Always learning and adapting to new technologies
             </span>

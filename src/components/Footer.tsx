@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
           <div className="flex justify-center gap-8 mb-4">
             <a
-              href="https://linkedin.com/in/kamlesh-porwal"
+              href="https://www.linkedin.com/in/kamlesh-porwal-2b1a2a1a6/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-3 rounded-full bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-200 transition-all duration-300 hover:scale-110 transform hover:shadow-lg hover:shadow-gray-500/20 animate-fade-in-delay-1"
@@ -22,7 +22,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href="https://kamleshp214.github.io"
+              href="https://github.com/kamleshp214"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-3 rounded-full bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-200 transition-all duration-300 hover:scale-110 transform hover:shadow-lg hover:shadow-gray-500/20 animate-fade-in-delay-2"

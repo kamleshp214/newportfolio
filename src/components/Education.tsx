@@ -10,19 +10,19 @@ const Education = () => {
       title: 'Fundamentals of UI/UX Design',
       issuer: 'Microsoft (Coursera)',
       date: 'May 2025',
-      link: 'https://coursera.org/certificate/placeholder'
+      link: 'https://www.coursera.org/account/accomplishments/verify/4R15UBJA8OR8'
     },
     {
       title: 'Git and GitHub',
       issuer: 'Google (Coursera)',
       date: 'May 2025',
-      link: 'https://coursera.org/certificate/placeholder'
+      link: 'https://www.coursera.org/account/accomplishments/verify/M89VXDEW9IWP'
     },
     {
-      title: 'Java Programming',
-      issuer: 'Infosys Springboard',
-      date: 'Jul 2024',
-      link: 'https://springboard.infosys.com/certificate/placeholder'
+      title: 'AWS Cloud Practitioner Essentials',
+      issuer: 'Amazon Web Services (AWS)',
+      date: 'May 2025',
+      link: 'https://www.linkedin.com/in/kamlesh-porwal-2b1a2a1a6/details/certifications/1747826962954/single-media-viewer/?profileId=ACoAADA0vyUBgydslHZZBbHWHuFkBIC_d1AfT4c'
     }
   ];
 

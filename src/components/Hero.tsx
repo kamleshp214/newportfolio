@@ -72,7 +72,7 @@ const Hero = () => {
           </Button>
           <Button 
             variant="outline"
-            onClick={() => window.open('#', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1CIYetvcN9wWA8X4G2wSbaZq00NpxoUWJ/view?usp=sharing', '_blank')}
             className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-gray-100 hover:border-gray-500 px-8 py-4 rounded-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-gray-700/30 group bg-transparent"
           >
             <span className="mr-2">Download Resume</span>

@@ -23,7 +23,7 @@ const Projects = () => {
       title: 'SynapShare',
       description: 'A full-stack collaborative content hub with secure user authentication and optimized performance for 300+ users.',
       technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Google Auth'],
-      githubUrl: 'https://github.com/kamleshp214/synapshare',
+      githubUrl: 'https://github.com/kamleshp214/creative',
       demoUrl: 'https://www.linkedin.com/posts/kamlesh-porwal-2b1a2a1a6_built-something-cool-synapshare-a-collaboration-activity-7324105451992743936-KUua?utm_source=share&utm_medium=member_desktop&rcm=ACoAADA0vyUBgydslHZZBbHWHuFkBIC_d1AfT4c',
       imageUrl: '/screenshots/synapshare.jpg'
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       title: 'Second Brain',
       description: 'An AI-powered learning platform for B.Tech students with offline access and productivity tools like a Pomodoro timer.',
       technologies: ['React', 'TypeScript', 'Express.js', 'Dexie.js', 'TailwindCSS', 'Recharts'],
-      githubUrl: 'https://github.com/kamleshp214/secondbrain',
+      githubUrl: 'https://github.com/kamleshp214/secondbrain2',
       demoUrl: 'https://www.linkedin.com/posts/kamlesh-porwal-2b1a2a1a6_secondbrain-reactjs-studyapp-activity-7327338646561271809-2eyZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADA0vyUBgydslHZZBbHWHuFkBIC_d1AfT4c',
       imageUrl: '/screenshots/secondbrain.jpg'
     },
@@ -50,6 +50,15 @@ const Projects = () => {
       githubUrl: 'https://github.com/kamleshp214/donna',
       demoUrl: 'https://www.linkedin.com/posts/kamlesh-porwal-2b1a2a1a6_python-coding-activity-7330611815745232898-XxWj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADA0vyUBgydslHZZBbHWHuFkBIC_d1AfT4c',
       imageUrl: '/screenshots/donna.jpg'
+    }
+    ,
+    {
+      title: 'TruthScan',
+      description: 'A tool to detect fake or misleading news articles by analyzing text or URLs for sensational language, source credibility, and content depth, designed to combat misinformation, especially in India-Pakistan news.',
+      technologies: ['Flask', 'BeautifulSoup', 'JavaScript'],
+      githubUrl: 'https://github.com/kamleshp214/truthscan',
+      demoUrl: 'https://www.linkedin.com/posts/kamlesh-porwal-2b1a2a1a6_opensource-flask-webapp-activity-7326932211742429184-cEyc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADA0vyUBgydslHZZBbHWHuFkBIC_d1AfT4c',
+      imageUrl: '/screenshots/truthscan.jpg'
     }
   ];
 

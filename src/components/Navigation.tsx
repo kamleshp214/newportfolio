@@ -77,7 +77,7 @@ const Navigation = () => {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.open('https://github.com/kamleshporwal', '_blank')}
+              onClick={() => window.open('https://github.com/kamleshp214', '_blank')}
               className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-gray-100 hover:border-gray-500 transition-all duration-300 hover:scale-105 bg-transparent"
             >
               <Github className="w-4 h-4 mr-2" />

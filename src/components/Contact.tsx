@@ -30,12 +30,16 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/kamlesh-porwal'
+      href: 'https://www.linkedin.com/in/kamlesh-porwal-2b1a2a1a6/',
+      target: '_blank',
+      rel: 'noopener noreferrer'
     },
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://kamleshp214.github.io'
+      href: 'https://github.com/kamleshp214',
+      target: '_blank',
+      rel: 'noopener noreferrer'
     }
   ];
 
