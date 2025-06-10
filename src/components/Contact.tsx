@@ -112,7 +112,7 @@ const Contact = () => {
 
               <div className="pt-8">
                 <h4 className="text-lg font-semibold text-gray-100 mb-4 font-mono">Follow Me</h4>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                   {socialLinks.map((social, index) => {
                     const IconComponent = social.icon;
                     return (
@@ -121,7 +121,7 @@ const Contact = () => {
                         variant="outline"
                         size="lg"
                         onClick={() => window.open(social.href, '_blank')}
-                        className={`flex items-center gap-2 bg-gray-700 border-gray-600 text-gray-300 hover:bg-gray-600 hover:text-gray-100 hover:border-gray-500 transition-all duration-300 hover:scale-105 font-mono ${
+                        className={`flex items-center gap-2 bg-gray-700 border-gray-600 text-gray-300 hover:bg-gray-600 hover:text-gray-100 hover:border-gray-500 transition-all duration-300 hover:scale-105 font-mono flex-1 min-w-[120px] justify-center ${
                           visibleItems[contactInfo.length + index] ? 'animate-slide-in-up' : 'opacity-0'
                         }`}
                         style={{ animationDelay: `${(contactInfo.length + index) * 0.2}s` }}
