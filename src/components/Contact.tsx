@@ -89,11 +89,12 @@ const Contact = () => {
                       }`}
                       style={{ animationDelay: `${index * 0.2}s` }}
                     >
-                      <div className="w-12 h-12 bg-gray-700 border border-gray-600 rounded-full flex items-center justify-center text-gray-300 group-hover/item:scale-110 group-hover/item:bg-gray-600 transition-all duration-300">
-                        <IconComponent className="w-5 h-5" />
+                      <div className="relative w-12 h-12 flex-shrink-0 bg-gray-700/50 border border-gray-600/50 rounded-xl flex items-center justify-center text-gray-300 group-hover:bg-gray-600/70 group-hover:border-gray-500/70 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-gray-900/20">
+                        <IconComponent className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
+                        <div className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-gray-400/30 transition-all duration-300 pointer-events-none"></div>
                       </div>
-                      <div>
-                        <p className="text-sm text-gray-400 font-medium font-mono">{info.label}</p>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm text-gray-400 font-medium font-mono mb-1">{info.label}</p>
                         {info.href !== '#' ? (
                           <a
                             href={info.href}
